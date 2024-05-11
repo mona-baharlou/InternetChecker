@@ -3,7 +3,7 @@
 
 
 
-`class NetworkChecker(private val context: Context) {
+class NetworkChecker(private val context: Context) {
 
     val isInternetConnected: Boolean
         get() {
@@ -37,4 +37,4 @@
 
             return result
         }
-}`
+}
